@@ -1,5 +1,5 @@
 import common from "./common.js";
 
-export default {
+export {
   common,
 }

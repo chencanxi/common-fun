@@ -1,5 +1,14 @@
 const common = {
   /**
+     * 获取数据类型
+     * @param params 
+     * @returns 'String','Number'...
+     */
+  getTypeOf: (params) => {
+    let type = Object.prototype.toString.call(params)
+    return type.match(/\[\w+\W(\w+)\]$/)[1]
+  },
+  /**
      * 数组，字符串去重
      * @param Array,String
      * @returns 
