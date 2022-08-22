@@ -1,0 +1,28 @@
+{
+  "name": "common-fun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "babel-loader": "^8.2.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chencanxi/common-fun.git"
+  },
+  "author": "cx_chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chencanxi/common-fun/issues"
+  },
+  "homepage": "https://github.com/chencanxi/common-fun#readme"
+}
